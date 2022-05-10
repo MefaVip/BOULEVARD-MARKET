@@ -1,0 +1,203 @@
+@import url(fonts.css);
+
+/* font-family: Montserrat-Bold;
+font-family: Montserrat-Medium;
+font-family: Montserrat-Regular;
+font-family: ProstoOne-Regular ; */
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+.container{
+    max-width: 1140px;
+    display: flex;
+    margin: 0 auto;
+    padding: 0 15px;
+    position: relative;
+}
+
+
+body{
+    background: #151515;
+}
+nav{
+    background: #282828;
+    display: flex;
+    align-items: center;
+}
+
+.nav-content{
+    display: flex;
+    justify-content: space-between;
+}
+
+.title{
+    color: white;
+    align-items: center;
+    display: flex;
+    margin-right: 30px;
+    font-family: Montserrat-Bold;
+}
+
+.logo{
+    display: flex;
+    margin: 6px 30px;
+}
+
+
+
+.title-2{
+    display: flex;
+    align-items: center;
+    margin-right: 25px;
+
+}
+
+.title-3{
+    display: flex;
+    align-items: center;
+}
+
+header{
+    width: 100%;
+    height: 700px;
+    background-size: cover;
+    background-position: center;
+    background-image: url(img/logo-Header.png) ;
+}
+
+.airpods{
+    font-size: 100px;
+    color: white;
+}
+
+.header-content{
+    justify-content: center;
+    align-items: center;
+    padding: 200px;
+    flex-direction: column;
+}
+
+.title-4{
+    color: #171718;
+    background: white;
+    padding: 13px 14px;
+    border-radius: 30px;
+}
+
+.card-text-1{
+    color: white;
+    text-align: start;
+    font-size: 23px;
+    padding: 15px;
+    margin-top: 150px;
+    width: 540px;
+}
+
+.card-text-2{
+    color: white;
+    width: 540px;
+    text-align: end;
+    font-size: 23px;
+    padding: 15px;
+
+}
+
+
+.main-content__last::before{
+    content: '';
+    width: 60px;
+    height: 1px;
+    background: #C4C4C4;
+    display: block;
+    position: absolute;
+    bottom: 52%;
+    left: 300px;
+}
+.main-content__last::after{
+    content: '';
+    width: 60px;
+    height: 1px;
+    background: #C4C4C4;
+    display: block;
+    position: absolute;
+    bottom: 52%;
+    right: 400px;
+}
+.main-content{
+    position: relative;
+    text-align: center;
+    align-items: center;
+    
+}
+
+.card{
+    background: white;
+    border-radius: 6px;
+    height: 312px;
+    width: 250px;
+}
+.card-text-3{
+    padding: 15px 48px 10px 48px;
+    font-size: 20px;
+    color: white;
+    font-family: Montserrat-Bold;
+    display: flex;
+}
+.phone{
+    max-width: 160px;
+    padding:10px;
+}
+.cards{
+    text-align: center;
+    
+    justify-content: space-between;
+    margin-bottom: 55px;
+    margin-top: 79px;
+
+
+}
+.more{
+    background: lightblue;
+    padding: 7px 57px 7px 57px;
+    margin: 9px 30px;
+    font-size: 25px;
+    font-family: Montserrat-Bold;
+}
+.text-4{
+    margin-bottom: 20px;
+    padding: 5px 58px 10px ;
+    font-family: Monserrat-Regular;
+}
+
+.text-3{
+    color: white;
+    font-family: Montserrat-Bold;
+    display: flex;
+}
+
+footer{
+    background: #282828;
+}
+.footer-content{
+    padding: 81px 0;
+    justify-content: center;
+    
+}
+
+.ads{
+    font-size: 25px;
+    font-family: Montserrat-Bold;
+}
+
+.ads-text-1{
+    font-family: Montserrat-Regular;
+    font-size: 23px;
+}
